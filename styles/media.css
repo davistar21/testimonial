@@ -1,0 +1,32 @@
+@media (max-width: 1250px){
+    .testimonial-container{
+        flex-direction: column;
+    }
+    .first-box{
+        min-width: 500px;
+    }   
+} 
+@media (max-width: 1140px){
+    .second-division{
+        flex-direction: column;
+    }
+    .testimonial-box{
+        width: 80%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1040px){
+    .testimonial-box{
+        width: 700px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 900px){
+    .testimonial-box{
+        width: 500px;
+    }
+}
+@media (min-width: 450px) and (max-width: 650px){
+    .testimonial-box{
+        width: 300px;
+    }
+}
