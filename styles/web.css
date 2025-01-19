@@ -3,6 +3,11 @@ body{
     font-family: "Barlow Semi Condensed", sans-serif;
     margin: 100px;
 }
+.quotation-watermark{
+    position: absolute;
+    right: 10%;
+    opacity: 0.4;
+}
 .testimonial-box{
     border-radius: 8px;
     background-color: hsl(62, 45%, 54%);
@@ -13,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    position: relative;
 }
 .testimonial-container{
     display: flex;
